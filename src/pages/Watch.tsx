@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { BiDislike, BiLike } from "react-icons/bi";
+import { BsThreeDots } from "react-icons/bs";
+import { FaShare } from "react-icons/fa";
+import { HiScissors } from "react-icons/hi";
+import { MdOutlinePlaylistAdd } from "react-icons/md";
+import { useNavigate, useParams } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import WatchCard from "../components/WatchCard";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { getRecommendedVideos } from "../store/reducers/getRecommendedVideos";
 import { getVideoDetails } from "../store/reducers/getVideoDetails";
-import { BiLike, BiDislike } from "react-icons/bi";
-import { HiScissors } from "react-icons/hi";
-import { MdOutlinePlaylistAdd } from "react-icons/md";
-import { FaShare } from "react-icons/fa";
-import { BsThreeDots } from "react-icons/bs";
-import WatchCard from "../components/WatchCard";
 export default function Watch() {
   const [showMoreStatus, setShowMoreStatus] = useState<boolean>(false);
   const { id } = useParams();

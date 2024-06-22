@@ -1,4 +1,4 @@
-import { createSlice, configureStore, PayloadAction } from "@reduxjs/toolkit";
+import { PayloadAction, configureStore, createSlice } from "@reduxjs/toolkit";
 
 import { InitialState } from "../Types";
 import { getHomePageVideos } from "./reducers/getHomePageVideos";

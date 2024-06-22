@@ -1,6 +1,5 @@
-import React from "react";
-import { HomePageVideos } from "../Types";
 import { Link } from "react-router-dom";
+import { HomePageVideos } from "../Types";
 
 export default function SearchCard({ data }: { data: HomePageVideos }) {
   return (

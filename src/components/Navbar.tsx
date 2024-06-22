@@ -1,12 +1,11 @@
-import React from "react";
-import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
-import { TiMicrophone } from "react-icons/ti";
-import { BsYoutube, BsCameraVideo, BsBell } from "react-icons/bs";
+import { AiOutlineClose, AiOutlineSearch } from "react-icons/ai";
+import { BsBell, BsCameraVideo, BsYoutube } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoAppsSharp } from "react-icons/io5";
+import { TiMicrophone } from "react-icons/ti";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { changeSearchTerm, clearSearchTerm, clearVideos } from "../store";
+import { useAppDispatch, useAppSelector } from "../store/hooks";
 import { getSearchPageVideos } from "../store/reducers/getSearchPageVideos";
 
 export default function Navbar() {
@@ -80,7 +79,7 @@ export default function Navbar() {
           </span>
         </div>
         <img
-          src="https://yt3.ggpht.com/wgnEbc2Ec2JYkeyzUbiHzDlAFObI2Btwo2YRCEF1aCMBiRc5E_zWy8-URBQS3EMQ1yzzaGFR=s88-c-k-c0x00ffffff-no-rj-mo"
+          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogo.com%2Flogos%2Fyoutube-logo-maker&psig=AOvVaw0tuq974la2OF1LOuW5YSEU&ust=1719136911338000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNDllZz67oYDFQAAAAAdAAAAABAE"
           className="w-9 h-9 rounded-full"
           alt="logo"
         />

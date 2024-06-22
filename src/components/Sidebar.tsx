@@ -1,22 +1,21 @@
-import React from "react";
-import {
-  MdHomeFilled,
-  MdOutlineSlowMotionVideo,
-  MdSubscriptions,
-  MdOutlineVideoLibrary,
-  MdHistory,
-  MdOutlineSmartDisplay,
-  MdOutlineWatchLater,
-  MdThumbUpOffAlt,
-  MdSettings,
-  MdOutlinedFlag,
-  MdOutlineHelpOutline,
-  MdOutlineFeedback,
-  MdOutlineSportsVolleyball,
-} from "react-icons/md";
-import { TbMusic, TbDeviceGamepad2 } from "react-icons/tb";
 import { FaRegCompass } from "react-icons/fa";
 import { GiFilmStrip } from "react-icons/gi";
+import {
+  MdHistory,
+  MdHomeFilled,
+  MdOutlineFeedback,
+  MdOutlineHelpOutline,
+  MdOutlineSlowMotionVideo,
+  MdOutlineSmartDisplay,
+  MdOutlineSportsVolleyball,
+  MdOutlineVideoLibrary,
+  MdOutlineWatchLater,
+  MdOutlinedFlag,
+  MdSettings,
+  MdSubscriptions,
+  MdThumbUpOffAlt,
+} from "react-icons/md";
+import { TbDeviceGamepad2, TbMusic } from "react-icons/tb";
 
 export default function Sidebar() {
   const mainLinks = [

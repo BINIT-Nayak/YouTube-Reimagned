@@ -1,13 +1,13 @@
 import axios from "axios";
+import { Item, RecommendedVideos } from "../Types";
+import { YOUTUBE_API_URL } from "./constants";
 import {
   convertRawViewstoString,
   parseVideoDuration,
   timeSince,
 } from "./index";
-import { YOUTUBE_API_URL } from "./constants";
-import { Item, RecommendedVideos } from "../Types";
 
-const API_KEY = process.env.REACT_APP_YOTUBE_DATA_API_KEY;
+const API_KEY = "ae68c7722amsh1e2a3b9d48389cdp18a9c1jsn124ed7937ad8";
 
 export const parseRecommendedData = async (items: Item[], videoId: string) => {
   try {
